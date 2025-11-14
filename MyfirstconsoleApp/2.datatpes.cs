@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Linq;
-using System.Xml.Schema;
+
 
 
 
@@ -107,6 +106,38 @@ class datatypes
                                                       quanitty, finalOuput);
 
         Console.WriteLine(message);
+
+
+
+
+        //var and dynamic keywords difference
+        var data1 = "Bhanu prakash raju";
+        Console.WriteLine(data1);
+        data1 = "Raju bhanu prakash";
+        Console.WriteLine(data1);
+        //data1 = 12345; // Compile-time error: Cannot assign an integer to a string variable
+
+        //Console.WriteLine(data1);
+
+        dynamic data2 = "Bhanu prakash raju";
+        Console.WriteLine(data2);
+        data2 = 12345; // No compile-time error: dynamic type allows reassignment to different types
+        Console.WriteLine(data2);
+
+
+        //type conversion difference between implicit and explicit
+        //implicit conversion
+        int num1 = 100;
+        double dnum1 = num1; // Implicit conversion from int to double
+        Console.WriteLine(dnum1);
+
+
+        //explicit conversion
+        double dnum2 = 9.78;
+        int num2 = (int)dnum2; // Explicit conversion from double to int
+        Console.WriteLine(num2);
+
+
 
 
 

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>datatypes</StartupObject>
+    <StartupObject>ReturnTypeMethods</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="datatpes.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="3.array.cs" />
+    <Compile Include="2.datatpes.cs" />
+    <Compile Include="4.operations.cs" />
+    <Compile Include="1.Program.cs" />
+    <Compile Include="5.condtionlstatms.cs" />
+    <Compile Include="6.loopingstatms.cs" />
+    <Compile Include="7.Methos.cs" />
+    <Compile Include="8.returntypemethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
